@@ -10,4 +10,24 @@
   box-shadow: 0px 0px 20px 0px rgba(222, 222, 222, 0.5);
   margin-bottom: 20px;
   margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-tab span {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.set-langugae {
+  cursor: pointer;
+}
+
+.toggleIcon {
+  margin: 0 auto;
 }

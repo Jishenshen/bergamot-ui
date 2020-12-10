@@ -32,3 +32,7 @@ header span {
   height: 40vmin;
   pointer-events: none;
 }
+
+hr {
+  border: 1px solid rgba(222, 222, 222, 1);
+}

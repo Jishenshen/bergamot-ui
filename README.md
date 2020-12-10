@@ -1,15 +1,12 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 Welcome to Bergomot project!
 
-This project has been created using **webpack scaffold**, you can now run
+This project has been created using React, you can now run
 
 ```
 npm run build
 ```
 
-or
+bundle application
 
-```
-yarn build
-```
-
-to bundle your application
+Or you can view this project in brower
+<a>https://5swek.csb.app/</a>

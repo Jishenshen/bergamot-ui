@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import icon from "./brand-icon.svg";
+import "./App.css";
+import TranslateToggle from "./components/menu"
+import footSetup from "./components/footSetup"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div className="main-page">
+      <header>
+        <img src={icon} alt=''></img>
+        <span>BERGAMOT</span>
       </header>
+      <TranslateToggle></TranslateToggle>
+      <hr></hr>
+      <footSetup></footSetup>
+      </div>
     </div>
   );
 }
